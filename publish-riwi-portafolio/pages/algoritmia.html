@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es" class="motion-safe:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ejercicios de algoritmia en PSeInt y JavaScript con código, explicación y ejecución interactiva." />
+    <meta name="theme-color" content="#20292e" />
+    <title>Algoritmia | Portafolio de Alex Ramírez</title>
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body class="min-h-screen bg-[#20292e] font-sans text-[#fff0c2] antialiased">
+    <header class="sticky top-0 z-40 border-b border-[#fff0c2]/15 bg-[#20292e]/95 px-4 py-3 shadow-lg backdrop-blur-md sm:px-8">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3">
+        <a href="../index.html#inicio" class="flex items-center gap-3">
+          <img data-logo alt="Logo de El Salseo" class="h-11 w-11 rounded-full object-contain" />
+          <span class="text-sm font-black uppercase tracking-wider">Portafolio</span>
+        </a>
+        <button id="menu-toggle" type="button" class="inline-flex items-center rounded-full border border-[#fff0c2]/40 px-4 py-2 text-sm font-bold uppercase tracking-wider text-[#fff0c2] md:hidden" aria-controls="primary-navigation" aria-expanded="false">
+          Menú
+        </button>
+        <nav id="primary-navigation" aria-label="Navegación principal" class="hidden w-full flex-col gap-1 pb-1 text-sm font-black uppercase tracking-wider md:flex md:w-auto md:flex-row md:items-center md:gap-7 md:pb-0">
+          <a class="rounded-full px-3 py-2 hover:bg-[#fff0c2]/10 hover:text-[#ffdf8a]" href="../index.html#trabajos">Trabajos</a>
+          <a class="rounded-full px-3 py-2 hover:bg-[#fff0c2]/10 hover:text-[#ffdf8a]" href="../index.html#sobre-mi">Sobre mí</a>
+          <a class="rounded-full px-3 py-2 hover:bg-[#fff0c2]/10 hover:text-[#ffdf8a]" href="../index.html#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <main class="px-4 py-12 sm:px-8 sm:py-16">
+      <div class="mx-auto max-w-6xl">
+        <div class="mb-10 max-w-3xl">
+          <p class="mb-3 text-xs font-black uppercase tracking-[0.28em] text-[#c81019]">Pensar, resolver, probar</p>
+          <h1 class="text-4xl font-black uppercase tracking-tight text-[#ffe3a0] sm:text-6xl">Algoritmia</h1>
+          <p class="mt-5 text-lg leading-8 text-[#fff0c2]/75">
+            Ejercicios de las semanas 1, 2 y 3, más el reto Caracol. Cada tarjeta explica el problema, muestra el código original y permite probar su lógica aquí mismo.
+          </p>
+          <p class="mt-3 text-sm leading-6 text-[#fff0c2]/60">
+            Los algoritmos PSeInt se ejecutan con una versión interactiva equivalente en JavaScript; el código PSeInt original se conserva para consultarlo.
+          </p>
+        </div>
+        <label for="algorithm-filter" class="mb-3 block text-sm font-bold text-[#ffe3a0]">Filtrar ejercicios</label>
+        <select id="algorithm-filter" class="mb-10 min-w-56 rounded-xl border border-[#ffe3a0]/50 bg-[#20292e] px-4 py-3 text-[#fff0c2] outline-none focus:border-[#c81019] focus:ring-2 focus:ring-[#c81019]">
+          <option value="all">Todos los ejercicios</option>
+          <option value="Semana 1">Semana 1 · Fundamentos</option>
+          <option value="Semana 2">Semana 2 · Condiciones</option>
+          <option value="Semana 3">Semana 3 · Ciclos</option>
+          <option value="Caracol">Caracol · JavaScript</option>
+        </select>
+        <div id="algorithm-list" class="space-y-12"></div>
+      </div>
+    </main>
+    <footer class="border-t border-[#fff0c2]/15 px-5 py-5 text-center text-xs text-[#fff0c2]/60">
+      <a href="../index.html" class="underline decoration-[#c81019] underline-offset-4 hover:text-[#ffe3a0]">Volver al portafolio</a>
+    </footer>
+    <script type="module" src="../src/main.js"></script>
+    <script type="module" src="../src/algoritmia.js"></script>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es" class="motion-safe:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio de Alex Ramírez: proyectos de algoritmia, inteligencia artificial y desarrollo web." />
+    <meta name="theme-color" content="#20292e" />
+    <title>Portafolio | Alex Ramírez</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="bg-[#20292e] font-sans text-[#fff0c2] antialiased">
+    <header class="fixed inset-x-0 top-0 z-40 px-4 pt-4 sm:px-8">
+      <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 rounded-2xl border border-[#fff0c2]/20 bg-[#20292e]/95 px-4 py-3 shadow-xl sm:rounded-full sm:px-6">
+        <a href="#inicio" class="flex items-center gap-3" aria-label="Ir al inicio">
+          <img data-logo alt="Logo de El Salseo" class="h-11 w-11 rounded-full object-contain" />
+          <span class="hidden text-sm font-black uppercase tracking-[0.18em] text-[#fff0c2] sm:inline">Portafolio</span>
+        </a>
+        <button id="menu-toggle" type="button" class="inline-flex items-center rounded-full border border-[#fff0c2]/40 px-4 py-2 text-sm font-bold uppercase tracking-wider text-[#fff0c2] md:hidden" aria-controls="primary-navigation" aria-expanded="false">
+          Menú
+        </button>
+        <nav id="primary-navigation" aria-label="Navegación principal" class="hidden w-full flex-col gap-1 pb-1 text-sm font-black uppercase tracking-wider md:flex md:w-auto md:flex-row md:items-center md:gap-7 md:pb-0">
+          <a class="rounded-full px-3 py-2 hover:bg-[#fff0c2]/10 hover:text-[#ffdf8a]" href="#trabajos">Trabajos</a>
+          <a class="rounded-full px-3 py-2 hover:bg-[#fff0c2]/10 hover:text-[#ffdf8a]" href="#sobre-mi">Sobre mí</a>
+          <a class="rounded-full px-3 py-2 hover:bg-[#fff0c2]/10 hover:text-[#ffdf8a]" href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="relative isolate min-h-[72svh] overflow-hidden bg-[#20292e] pt-20 sm:min-h-0 sm:aspect-[16/9] sm:pt-0">
+        <img data-hero-image alt="Portada del portafolio de Alex Ramírez" class="absolute inset-0 h-full w-full object-cover object-center" />
+        <div class="absolute inset-0 bg-gradient-to-t from-[#20292e]/80 via-transparent to-[#20292e]/10"></div>
+        <h1 class="sr-only">Portafolio de Alex Ramírez</h1>
+        <a href="#trabajos" class="absolute bottom-5 left-1/2 -translate-x-1/2 rounded-full border border-[#fff0c2]/60 bg-[#20292e]/80 px-5 py-3 text-xs font-black uppercase tracking-[0.2em] text-[#fff0c2] transition hover:bg-[#c81019] sm:bottom-8">
+          Explorar trabajos <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section id="trabajos" class="scroll-mt-24 bg-[#20292e] px-5 py-20 sm:px-8 sm:py-28">
+        <div class="mx-auto max-w-6xl">
+          <div class="mx-auto mb-12 max-w-2xl text-center">
+            <p class="mb-3 text-xs font-black uppercase tracking-[0.28em] text-[#c81019]">Ideas convertidas en proyectos</p>
+            <h2 class="text-4xl font-black uppercase tracking-tight text-[#fff0c2] sm:text-6xl">Trabajos</h2>
+            <p class="mt-5 text-base leading-7 text-[#fff0c2]/75 sm:text-lg">
+              Una selección de ejercicios y proyectos desarrollados durante mi formación en Riwi.
+            </p>
+          </div>
+
+          <div class="grid gap-6 md:grid-cols-3">
+            <article class="flex flex-col rounded-3xl border-2 border-[#ffe3a0] bg-[#20292e] p-6 shadow-[8px_8px_0_0_#c81019] transition hover:-translate-y-1">
+              <span class="mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-[#ffe3a0] text-2xl font-black text-[#20292e]" aria-hidden="true">&lt;/&gt;</span>
+              <h3 class="text-2xl font-black uppercase text-[#ffe3a0]">Algoritmia</h3>
+              <p class="mt-3 flex-1 leading-7 text-[#fff0c2]/75">Ejercicios de lógica en PSeInt y JavaScript, con explicación, código y una consola para probarlos.</p>
+              <a href="./pages/algoritmia.html" class="mt-7 inline-flex items-center justify-between rounded-full bg-[#ffe3a0] px-5 py-3 font-black uppercase tracking-wider text-[#20292e] transition hover:bg-[#c81019] hover:text-white">
+                Explorar ejercicios <span aria-hidden="true">→</span>
+              </a>
+            </article>
+
+            <article class="flex flex-col rounded-3xl border-2 border-[#ffe3a0] bg-[#20292e] p-6 shadow-[8px_8px_0_0_#c81019] transition hover:-translate-y-1">
+              <span class="mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-[#ffe3a0] text-2xl text-[#20292e]" aria-hidden="true">✦</span>
+              <h3 class="text-2xl font-black uppercase text-[#ffe3a0]">Inteligencia artificial</h3>
+              <p class="mt-3 flex-1 leading-7 text-[#fff0c2]/75">Akira Motors y una actividad sobre cómo el contexto cambia las recomendaciones de una IA.</p>
+              <div class="mt-7 grid gap-3">
+                <a href="https://remix-akira-motors-akr-1390-el-camino-lo-defines-9756.ai.studio" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-between rounded-full bg-[#ffe3a0] px-5 py-3 font-black uppercase tracking-wider text-[#20292e] transition hover:bg-[#c81019] hover:text-white">
+                  Abrir Akira Motors <span aria-hidden="true">↗</span>
+                </a>
+                <a href="./pages/inteligencia-artificial.html" class="inline-flex items-center justify-between rounded-full border border-[#ffe3a0] px-5 py-3 font-black uppercase tracking-wider text-[#ffe3a0] transition hover:bg-[#ffe3a0] hover:text-[#20292e]">
+                  Actividad: tres cupos <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="flex flex-col rounded-3xl border-2 border-[#ffe3a0] bg-[#20292e] p-6 shadow-[8px_8px_0_0_#c81019] transition hover:-translate-y-1">
+              <span class="mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-[#ffe3a0] text-2xl font-black text-[#20292e]" aria-hidden="true">HTML</span>
+              <h3 class="text-2xl font-black uppercase text-[#ffe3a0]">HTML y CSS</h3>
+              <p class="mt-3 flex-1 leading-7 text-[#fff0c2]/75">Sitio informativo sobre prevención y fenómenos naturales, creado como proyecto web.</p>
+              <a href="https://hinalador.github.io/desastres/index.html" class="mt-7 inline-flex items-center justify-between rounded-full bg-[#ffe3a0] px-5 py-3 font-black uppercase tracking-wider text-[#20292e] transition hover:bg-[#c81019] hover:text-white">
+                Ver proyecto <span aria-hidden="true">→</span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="scroll-mt-24 bg-[#ffe3a0] px-5 py-20 text-[#20292e] sm:px-8 sm:py-28">
+        <div class="mx-auto grid max-w-5xl items-center gap-10 md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+          <div class="mx-auto max-w-xs">
+            <img data-portrait alt="Retrato de Alex Ramírez" class="w-full rounded-[2rem] border-8 border-[#20292e] object-cover shadow-[12px_12px_0_0_#c81019]" />
+          </div>
+          <div>
+            <p class="mb-3 text-xs font-black uppercase tracking-[0.28em] text-[#c81019]">Un poco de contexto</p>
+            <h2 class="text-4xl font-black uppercase tracking-tight sm:text-5xl">Sobre mí</h2>
+            <div class="mt-6 rounded-3xl bg-[#c81019] p-6 text-white shadow-xl sm:p-8">
+              <p class="text-lg font-bold leading-8">
+                Soy Alex Ramírez. Este portafolio reúne ejercicios y proyectos que he desarrollado durante mi proceso de aprendizaje en Riwi.
+              </p>
+              <p class="mt-4 leading-7 text-white/85">
+                Aquí comparto lo que he construido en algoritmia, desarrollo web e inteligencia artificial, junto con lo aprendido en cada trabajo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="scroll-mt-24 bg-[#19191c] px-5 py-20 sm:px-8 sm:py-28">
+        <div class="mx-auto max-w-5xl">
+          <div class="max-w-2xl">
+            <p class="text-xs font-black uppercase tracking-[0.28em] text-[#c81019]">Hablemos</p>
+            <h2 class="mt-3 text-4xl font-black uppercase leading-[1.05] tracking-tight text-[#fff0e8] sm:text-6xl">
+              ¿Saltamos a<br />tu proyecto?
+            </h2>
+            <p class="mt-6 max-w-xl text-base leading-8 text-[#fff0e8]/75 sm:text-lg">
+              Estoy listo para zambullirme de lleno en tu próxima idea. Cuéntame qué necesitas comunicar y busquemos una solución disruptiva que atrape a tus usuarios.
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-5 sm:max-w-xl">
+            <a href="mailto:elsalseoalex@gmail.com" class="group flex items-center gap-5 rounded-2xl p-2 transition hover:bg-white/5">
+              <span class="grid h-14 w-14 shrink-0 place-items-center rounded-full border border-[#ffe3a0]/40 bg-[#ffe3a0]/10 text-[#ffe3a0] transition group-hover:bg-[#ffe3a0] group-hover:text-[#19191c]" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5v10.5H3.75z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 7.5 7.5 6 7.5-6" />
+                </svg>
+              </span>
+              <span>
+                <span class="block text-sm font-black uppercase tracking-wider text-[#fff0e8]/65">Hablemos por mail</span>
+                <span class="mt-1 block break-all text-lg font-black text-[#fff0e8] sm:text-xl">elsalseoalex@gmail.com</span>
+              </span>
+            </a>
+
+            <a href="tel:+573232339922" class="group flex items-center gap-5 rounded-2xl p-2 transition hover:bg-white/5">
+              <span class="grid h-14 w-14 shrink-0 place-items-center rounded-full border border-[#ffe3a0]/40 bg-[#ffe3a0]/10 text-[#ffe3a0] transition group-hover:bg-[#ffe3a0] group-hover:text-[#19191c]" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 4.5h3l1.5 4-2 1.5a15 15 0 0 0 6.5 6.5l1.5-2 4 1.5v3a1.5 1.5 0 0 1-1.6 1.5A16.9 16.9 0 0 1 3.5 6.1 1.5 1.5 0 0 1 5 4.5Z" />
+                </svg>
+              </span>
+              <span>
+                <span class="block text-sm font-black uppercase tracking-wider text-[#fff0e8]/65">Llámame o escríbeme</span>
+                <span class="mt-1 block text-lg font-black text-[#fff0e8] sm:text-xl">(+57) 323 233 9922</span>
+              </span>
+            </a>
+          </div>
+
+          <div class="mt-8 flex gap-3">
+            <a href="mailto:elsalseoalex@gmail.com" aria-label="Enviar correo a elsalseoalex@gmail.com" class="grid h-12 w-12 place-items-center rounded-full border border-white/10 bg-white/5 text-[#fff0e8] transition hover:border-[#ffe3a0] hover:bg-[#ffe3a0] hover:text-[#19191c]">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5v10.5H3.75z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 7.5 7.5 6 7.5-6" />
+              </svg>
+            </a>
+            <a href="https://wa.me/573232339922" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp al 323 233 9922" class="grid h-12 w-12 place-items-center rounded-full border border-white/10 bg-white/5 text-[#fff0e8] transition hover:border-[#ffe3a0] hover:bg-[#ffe3a0] hover:text-[#19191c]">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 11.7a8.25 8.25 0 0 1-12.1 7.3L3.75 20.25l1.3-4.1a8.25 8.25 0 1 1 15.2-4.45Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 8.5c.3 2.2 2.3 4.2 4.5 4.5l1.2-1.1 2 .8c-.2 1.5-1.3 2.3-2.7 2.2-3.1-.3-6.1-3.3-6.4-6.4-.1-1.4.7-2.5 2.2-2.7l.8 2L9.5 9" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/elsalseo_frog?utm_source=ig_web_button_share_sheet&amp;rpxt=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Visitar Instagram de El Salseo Frog" class="grid h-12 w-12 place-items-center rounded-full border border-white/10 bg-white/5 text-[#fff0e8] transition hover:border-[#ffe3a0] hover:bg-[#ffe3a0] hover:text-[#19191c]">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5" aria-hidden="true">
+                <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.8" r=".8" fill="currentColor" stroke="none" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-[#fff0c2]/15 bg-[#20292e] px-5 py-5 text-center text-xs text-[#fff0c2]/60">
+      Portafolio de Alex Ramírez · Riwi
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

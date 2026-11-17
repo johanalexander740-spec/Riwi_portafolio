@@ -1,0 +1,17 @@
+Semana 1: 
+
+Día 1:
+
+Estructuración básica de las tres paginas, con su contenido en HTML sus secciones y pasos simples
+He dejado la mayoría a medias debido a que no he tenido tiempo
+
+Día 2:  Ya con todo lo base organicede mejor manera cada sección con css, teniendo en cuenta los id los h1 h2 y h3 etc.
+
+Día 3 - Día 1 semana 2:  Organice los flexboxes y los grids, atravez del css siguiendo las normas y lo visto en clase, los brakepoints para el responsibe y las medidas de pantalla
+Semana 2:
+
+Día 1: Terminamos de complementar el css 
+
+Día 2: Los flexboxes en row y columm, con diferentes orientaciones y formas se puede difernciar el contenido.
+
+día 3: Cree la pagina de catalogo Bootstrap, donde empecé a crear la solicitud con el código de boostrap, el flex, los colores, cards etc, el lh para la modificación de los espaciados entre cada pagina.
